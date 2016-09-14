@@ -1,0 +1,206 @@
+/*basic settings*/
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    border: none;
+}
+li{
+   list-style: none;
+}
+/**/
+.background-slider {background: url("../img/town.png") no-repeat 0 0;
+    background-size: cover;
+    text-transform: uppercase;
+    color: #cccece;
+    font-family: 'Bebas Neue Regular', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    padding: 120px 0 110px;
+}
+
+.background {
+    background: #f4f4f4;
+}
+
+.content {
+    display: block;
+    width: 838px;
+    margin: 0 auto;
+}
+
+.head-ti {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2190c1;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 32px 0 25px 0;
+    font-family: 'Bebas Neue Regular', sans-serif;
+}
+
+.total-info {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #515862;
+    font-size: 13px;
+    line-height: 21px;
+    padding-bottom: 80px;
+}
+
+.content2 {
+    display: block;
+    width: 828px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.input-contacts {
+    width: 383px;
+    color: #515862;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 26px;
+}
+
+.your-contacts {
+    vertical-align: top;
+    display: inline-block;
+    width: 415px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.name-form {
+    width: 360px;
+    text-transform: uppercase;
+    color: #515862;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    padding-bottom: 28px;
+}
+
+.size-form {
+    margin-top: 7px;
+    width: 358px;
+    height: 32px;
+    border: 1px solid #e1e1e1;
+}
+
+.size-form:focus {
+    border: 1px solid red;
+}
+
+.size-form-message {
+    height: 270px;
+    }
+
+.obligatorily {
+    color: red;
+}
+
+.code {
+    color: #515862;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    padding-bottom: 17px;
+}
+
+.enter-code {
+    display: inline-block;
+    width: 143px;
+    margin-left: 10px;
+}
+
+.size-form-code {
+    vertical-align: top;
+}
+
+.size-code {
+    margin-top: 7px;
+    width: 141px;
+    border: 1px solid #e1e1e1;
+}
+
+.sent {
+    margin-left: 262px;
+    border-radius: 5px;
+    background: #2190c1;
+    color: white;
+    width: 92px;
+    height: 30px;
+    border: none;
+}
+
+.our-contacts {
+    display: inline-block;
+    width: 350px;
+    padding-left: 55px;
+}
+
+.contact-us {
+    padding-left: 10px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.find-us-list{
+    background: url("../img/shape.png") top left repeat-y;
+    padding:12px 0 0 ;
+}
+.find-us-list li{
+    padding-left: 55px;
+    margin:0 0 20px 8px;
+    width: 225px;
+    color: #515862;
+    font-family: 'Ubuntu', sans-serif;
+}
+.find-us-tel{
+    background: url("../img/contacts-sprite.png") 0 0 no-repeat;
+}
+.find-us-adress{
+    background: url("../img/contacts-sprite.png") 0 -40px no-repeat;
+}
+.find-us-email{
+    background: url("../img/contacts-sprite.png") 0 -80px no-repeat;
+}
+
+.contact-links {
+    color: #2190c1;
+}
+
+.contact-links-mod {
+    text-decoration:none;
+}
+
+
+.maps {
+    border: 3px solid white;
+    width: 316px;
+}
+
+.socials {
+    font-family: 'Bebas Neue Regular', sans-serif;
+    text-transform: uppercase;
+    color: #515862;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 42px 0 23px 0;
+    letter-spacing: 1px;
+}
+
+.links {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.links li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 8px;
+}
